@@ -27,8 +27,8 @@ public class Main {
         salesByDay =  totalSales / daysNumber;
 
         System.out.println("Product No " + orderNumber + ":" + productName + ",");
-        System.out.println("total sales for " + daysNumber + " days is EUR " + totalSales + ",");
-        System.out.println("sales by day is EUR " + salesByDay + ".");
+        System.out.println("total sales for " + daysNumber + " days is "  + CURRENCY + " " + totalSales + ",");
+        System.out.println("sales by day is "  + CURRENCY + " " + salesByDay + ".");
 
     }
 }
